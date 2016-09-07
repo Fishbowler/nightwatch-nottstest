@@ -1,0 +1,15 @@
+{
+  "name": "nightwatch-nottstest",
+  "version": "1.0.0",
+  "description": "Resources for NottsTest presentation on NightwatchJS",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fishbowler/nightwatch-nottstest.git"
+  },
+  "author": "Dan Caseley (@Fishbowler)",
+  "homepage": "https://github.com/Fishbowler/nightwatch-nottstest#readme",
+  "dependencies": {
+		"selenium-standalone": "*",
+		"request": "*"
+	}
+}
