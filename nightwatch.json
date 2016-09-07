@@ -17,7 +17,7 @@
 			"webdriver.chrome.driver": "node_modules\\selenium-standalone\\.selenium\\chromedriver\\2.23-x64-chromedriver",
 			"webdriver.gecko.driver": "node_modules\\selenium-standalone\\.selenium\\geckodriver\\0.10.0-x64-geckodriver",
 			"webdriver.edge.driver": "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe",
-			"webdriver.ie.driver": "node_modules\\selenium-standalone\\.selenium\\iedriver\\2.53.0-ia32-IEDriverServer.exe",
+			"webdriver.ie.driver": "node_modules\\selenium-standalone\\.selenium\\iedriver\\2.53.1-ia32-IEDriverServer.exe",
 			"webdriver.ie.driver.ie.ensureCleanSession": true
 		}
 	},
