@@ -35,6 +35,12 @@ var chromedriverbinary = getFirstNonZip(chromedriverfolder);
 chromedriverconfigvalue = (chromedriverbinary ? path.join(seleniumdriverpath,chromedriverpathsuffix,chromedriverbinary) : '');
 config_file_content.selenium.cli_args["webdriver.chrome.driver"] = chromedriverconfigvalue;
 
+var firefoxdriverpathsuffix = 'geckodriver'
+var firefoxdriverfolder = path.join(seleniumdriverpath,firefoxdriverpathsuffix);
+var firefoxdriverbinary = getFirstNonZip(firefoxdriverfolder);
+firefoxdriverconfigvalue = (firefoxdriverbinary ? path.join(seleniumdriverpath,firefoxdriverpathsuffix,firefoxdriverbinary) : '');
+config_file_content.selenium.cli_args["webdriver.gecko.driver"] = firefoxdriverconfigvalue;
+
 var seleniumserverpathsuffix = 'selenium-server'
 var seleniumserverfolder = path.join(seleniumdriverpath,seleniumserverpathsuffix);
 var seleniumserverbinary = getFirstNonZip(seleniumserverfolder);
