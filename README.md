@@ -7,6 +7,7 @@ Configure using `setup.cmd/setup.sh` - automating the nightwatch install process
 
 Windows: 
 * Run `setup.bat` as administrator
+
 OSX: 
 * `chmod +x setup.sh`
 * `sudo ./setup.sh`
