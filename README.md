@@ -3,7 +3,7 @@ Resources for NottsTest presentation on NightwatchJS
 
 This is a working nightwatch project directory 
 
-Configure using `setup.cmd/setup.sh` - automating the nightwatch install process
+## Configure using `setup.cmd/setup.sh` - automating the nightwatch install process
 
 Windows: 
 * Run `setup.bat` as administrator
@@ -18,6 +18,8 @@ This will:
 * Fetch selenium
 * Fetch drivers
 * Rewrite nightwatch.json with exact filename of selenium & driver binaries
+
+## Folders
 
 `client_configs` - resources used by the setup script
 
