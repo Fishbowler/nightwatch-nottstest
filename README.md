@@ -3,7 +3,7 @@ Resources for NottsTest presentation on NightwatchJS
 
 This is a working nightwatch project directory 
 
-## Configure using `setup.cmd/setup.sh` - automating the nightwatch install process
+## Install / Configure
 
 Windows: 
 * Run `setup.bat` as administrator
