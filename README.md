@@ -3,8 +3,15 @@ Resources for NottsTest presentation on NightwatchJS
 
 This is a working nightwatch project directory 
 
-`setup.cmd/setup.sh` - automating the nightwatch install process
+Configure using `setup.cmd/setup.sh` - automating the nightwatch install process
 
+Windows: 
+* Run `setup.bat` as administrator
+OSX: 
+* `chmod +x setup.sh`
+* `sudo ./setup.sh`
+
+This will:
 * Install nightwatch globally.
 * npm install anything in the package.json
 * Fetch selenium
