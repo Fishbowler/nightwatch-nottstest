@@ -1,14 +1,16 @@
 # nightwatch-nottstest
-Resources for NottsTest presentation on NightwatchJS
-
-This is a working nightwatch project directory 
+Resources for installing and configuring Nightwatch for the NottsTest Workshop
 
 ## Install / Configure
+
+Pre-requisites:
+* Node.js (LTS recommended) - https://nodejs.org/en/download/
+* Java 8 - https://www.java.com/en/download/
 
 Windows: 
 * Run `setup.bat` as administrator
 
-OSX: 
+OSX:
 * `chmod +x setup.sh`
 * `sudo ./setup.sh`
 
@@ -22,15 +24,6 @@ This will:
 ## Folders
 
 `client_configs` - resources used by the setup script
-
-`tests` - example flows used on the night
-
-1. Load a page and establish the existence of a single element on the page
-2. Screenshot a range of pages, given by URL
-3. Follow a series of clicks and check items in a popup window / new tab
-4. Same as 3, but with PageObjects
-
-`custom_commands` - example custom commands
-
-* disableAnimations - Turning off transitions & animations to get more reliable screenshots
-
+`custom_commands` - for extended Nightwatch capabilities
+`page_objects` - used to implement PageObject Model items in Nightwatch
+`tests` - tests go here
