@@ -23,7 +23,7 @@ This will:
 
 ## Folders
 
-`client_configs` - resources used by the setup script
-`custom_commands` - for extended Nightwatch capabilities
-`page_objects` - used to implement PageObject Model items in Nightwatch
-`tests` - tests go here
+* `client_configs` - resources used by the setup script
+* `custom_commands` - for extended Nightwatch capabilities
+* `page_objects` - used to implement PageObject Model items in Nightwatch
+* `tests` - tests go here
