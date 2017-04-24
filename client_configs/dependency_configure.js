@@ -7,7 +7,7 @@ var seleniumdriverpath = 'node_modules/selenium-standalone/.selenium';
 function getFirstNonZip(path){
     filelist=fs.readdirSync(path);
     filelist=filelist.filter(function(element){
-        return (element.indexOf('.zip') == -1) //Not a zip
+        return ((element.indexOf('.zip') == -1) && (element.indexOf('.gz') == -1)) //Not an archive
     });
     filelist.sort();
     filelist.reverse();
